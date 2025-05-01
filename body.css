@@ -1,0 +1,182 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2; /* Light Grey Background */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #003b46, #07575b);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .logo-title {
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .hero .btn {
+    background-color: #ff6f3c;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background-color: #e85d2a;
+  }
+  
+  /* Benefit Summary Section */
+  .benefit-summary {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+  
+  .benefit-summary h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #003b46;
+    margin-bottom: 20px;
+  }
+  
+  .benefit-summary p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Features Section */
+  .features {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .features h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #003b46;
+    margin-bottom: 40px;
+  }
+  
+  .feature-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+  }
+  
+  .feature {
+    background: #e3f2f4;
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 5px solid #003b46;
+    text-align: left;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    color: #003b46;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Call to Action Section */
+  .cta {
+    background-color: #003b46;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cta .cta-btn {
+    background-color: #ff6f3c;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .cta .cta-btn:hover {
+    background-color: #e85d2a;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .testimonials h2 {
+    font-size: 36px;
+    color: #003b46;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial {
+    background-color: #f0f4f7;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .testimonial h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #003b46;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #003b46;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
